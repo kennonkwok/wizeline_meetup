@@ -1,0 +1,352 @@
+I, [2017-06-08T08:38:25.993995 #93588]  INFO -- default-ubuntu-1604: -----> Cleaning up any prior instances of <default-ubuntu-1604>
+I, [2017-06-08T08:38:25.995536 #93588]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
+I, [2017-06-08T08:38:25.999324 #93588]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m0.00s).
+I, [2017-06-08T08:38:25.999852 #93588]  INFO -- default-ubuntu-1604: -----> Testing <default-ubuntu-1604>
+I, [2017-06-08T08:38:25.999968 #93588]  INFO -- default-ubuntu-1604: -----> Creating <default-ubuntu-1604>...
+I, [2017-06-08T08:38:28.288655 #93588]  INFO -- default-ubuntu-1604: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2017-06-08T08:38:28.608147 #93588]  INFO -- default-ubuntu-1604: ==> default: Importing base box 'bento/ubuntu-16.04'...
+I, [2017-06-08T08:38:39.452967 #93588]  INFO -- default-ubuntu-1604: [KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2017-06-08T08:38:39.585363 #93588]  INFO -- default-ubuntu-1604: ==> default: Checking if box 'bento/ubuntu-16.04' is up to date...
+I, [2017-06-08T08:38:40.552762 #93588]  INFO -- default-ubuntu-1604: ==> default: Setting the name of the VM: kitchen-tk-puppet-inspec-default-ubuntu-1604_default_1496936320509_84444
+I, [2017-06-08T08:38:41.070699 #93588]  INFO -- default-ubuntu-1604: ==> default: Clearing any previously set network interfaces...
+I, [2017-06-08T08:38:41.120261 #93588]  INFO -- default-ubuntu-1604: ==> default: Preparing network interfaces based on configuration...
+I, [2017-06-08T08:38:41.121664 #93588]  INFO -- default-ubuntu-1604:     default: Adapter 1: nat
+I, [2017-06-08T08:38:41.172808 #93588]  INFO -- default-ubuntu-1604: ==> default: Forwarding ports...
+I, [2017-06-08T08:38:41.263129 #93588]  INFO -- default-ubuntu-1604:     default: 22 (guest) => 2222 (host) (adapter 1)
+I, [2017-06-08T08:38:41.419919 #93588]  INFO -- default-ubuntu-1604: ==> default: Booting VM...
+I, [2017-06-08T08:38:41.657249 #93588]  INFO -- default-ubuntu-1604: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2017-06-08T08:38:41.982495 #93588]  INFO -- default-ubuntu-1604:     default: SSH address: 127.0.0.1:2222
+I, [2017-06-08T08:38:41.982624 #93588]  INFO -- default-ubuntu-1604:     default: SSH username: vagrant
+I, [2017-06-08T08:38:41.982901 #93588]  INFO -- default-ubuntu-1604:     default: SSH auth method: private key
+I, [2017-06-08T08:38:57.928771 #93588]  INFO -- default-ubuntu-1604:     default: 
+I, [2017-06-08T08:38:57.928837 #93588]  INFO -- default-ubuntu-1604:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2017-06-08T08:38:57.928864 #93588]  INFO -- default-ubuntu-1604:     default: this with a newly generated keypair for better security.
+I, [2017-06-08T08:38:58.878598 #93588]  INFO -- default-ubuntu-1604:     default: 
+I, [2017-06-08T08:38:58.878674 #93588]  INFO -- default-ubuntu-1604:     default: Inserting generated public key within guest...
+I, [2017-06-08T08:38:58.987967 #93588]  INFO -- default-ubuntu-1604:     default: Removing insecure key from the guest if it's present...
+I, [2017-06-08T08:38:59.103239 #93588]  INFO -- default-ubuntu-1604:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2017-06-08T08:38:59.706491 #93588]  INFO -- default-ubuntu-1604: ==> default: Machine booted and ready!
+I, [2017-06-08T08:38:59.708913 #93588]  INFO -- default-ubuntu-1604: ==> default: Checking for guest additions in VM...
+I, [2017-06-08T08:38:59.768847 #93588]  INFO -- default-ubuntu-1604: ==> default: Setting hostname...
+I, [2017-06-08T08:39:00.105236 #93588]  INFO -- default-ubuntu-1604: ==> default: Mounting shared folders...
+I, [2017-06-08T08:39:00.105839 #93588]  INFO -- default-ubuntu-1604:     default: /tmp/omnibus/cache => /Users/kennon/.kitchen/cache
+I, [2017-06-08T08:39:00.662075 #93588]  INFO -- default-ubuntu-1604: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2017-06-08T08:39:03.144756 #93588]  INFO -- default-ubuntu-1604: [SSH] Established
+I, [2017-06-08T08:39:03.145191 #93588]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> created.
+I, [2017-06-08T08:39:03.146537 #93588]  INFO -- default-ubuntu-1604: Finished creating <default-ubuntu-1604> (0m37.14s).
+I, [2017-06-08T08:39:03.146623 #93588]  INFO -- default-ubuntu-1604: -----> Converging <default-ubuntu-1604>...
+I, [2017-06-08T08:39:03.148771 #93588]  INFO -- default-ubuntu-1604: Preparing files for transfer
+I, [2017-06-08T08:39:03.148951 #93588]  INFO -- default-ubuntu-1604: Preparing modules
+I, [2017-06-08T08:39:03.149471 #93588]  INFO -- default-ubuntu-1604: Nothing to do for modules
+I, [2017-06-08T08:39:03.149527 #93588]  INFO -- default-ubuntu-1604: Preparing manifests
+I, [2017-06-08T08:39:03.150526 #93588]  INFO -- default-ubuntu-1604: Preparing files
+I, [2017-06-08T08:39:03.150634 #93588]  INFO -- default-ubuntu-1604: nothing to do for files
+I, [2017-06-08T08:39:03.151072 #93588]  INFO -- default-ubuntu-1604: Finished Preparing files for transfer
+I, [2017-06-08T08:39:03.151512 #93588]  INFO -- default-ubuntu-1604: Installing puppet on ubuntu-16.04
+I, [2017-06-08T08:39:03.189556 #93588]  INFO -- default-ubuntu-1604: Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+I, [2017-06-08T08:39:03.527128 #93588]  INFO -- default-ubuntu-1604: Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+I, [2017-06-08T08:39:03.527933 #93588]  INFO -- default-ubuntu-1604: Reading state information... 0%Reading state information... 0%Reading state information... Done
+I, [2017-06-08T08:39:03.578077 #93588]  INFO -- default-ubuntu-1604: wget is already the newest version (1.17.1-1ubuntu1.2).
+I, [2017-06-08T08:39:03.897874 #93588]  INFO -- default-ubuntu-1604: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+I, [2017-06-08T08:39:03.918560 #93588]  INFO -- default-ubuntu-1604: --2017-06-08 15:39:02--  http://apt.puppetlabs.com/puppetlabs-release-pc1-trusty.deb
+I, [2017-06-08T08:39:03.942554 #93588]  INFO -- default-ubuntu-1604: Resolving apt.puppetlabs.com (apt.puppetlabs.com)... 13.32.205.17, 13.32.205.111, 13.32.205.131, ...
+I, [2017-06-08T08:39:03.948834 #93588]  INFO -- default-ubuntu-1604: Connecting to apt.puppetlabs.com (apt.puppetlabs.com)|13.32.205.17|:80... connected.
+I, [2017-06-08T08:39:03.957045 #93588]  INFO -- default-ubuntu-1604: HTTP request sent, awaiting response... 200 OK
+I, [2017-06-08T08:39:03.958541 #93588]  INFO -- default-ubuntu-1604: Length: 13652 (13K) [application/x-debian-package]
+I, [2017-06-08T08:39:03.959254 #93588]  INFO -- default-ubuntu-1604: Saving to: ‘puppetlabs-release-pc1-trusty.deb’
+I, [2017-06-08T08:39:03.959545 #93588]  INFO -- default-ubuntu-1604: 
+I, [2017-06-08T08:39:03.960518 #93588]  INFO -- default-ubuntu-1604:           puppetlab   0%[                    ]       0  --.-KB/s               puppetlabs-release- 100%[===================>]  13.33K  --.-KB/s    in 0s      
+I, [2017-06-08T08:39:03.960604 #93588]  INFO -- default-ubuntu-1604: 
+I, [2017-06-08T08:39:03.962474 #93588]  INFO -- default-ubuntu-1604: 2017-06-08 15:39:02 (144 MB/s) - ‘puppetlabs-release-pc1-trusty.deb’ saved [13652/13652]
+I, [2017-06-08T08:39:03.962545 #93588]  INFO -- default-ubuntu-1604: 
+I, [2017-06-08T08:39:03.999526 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package puppetlabs-release-pc1.
+I, [2017-06-08T08:39:04.113738 #93588]  INFO -- default-ubuntu-1604: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37825 files and directories currently installed.)
+I, [2017-06-08T08:39:04.115513 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack puppetlabs-release-pc1-trusty.deb ...
+I, [2017-06-08T08:39:04.122043 #93588]  INFO -- default-ubuntu-1604: Unpacking puppetlabs-release-pc1 (1.1.0-2trusty) ...
+I, [2017-06-08T08:39:04.137775 #93588]  INFO -- default-ubuntu-1604: Setting up puppetlabs-release-pc1 (1.1.0-2trusty) ...
+I, [2017-06-08T08:39:04.252856 #93588]  INFO -- default-ubuntu-1604: 0% [Working]            Ign:1 http://apt.puppetlabs.com trusty InRelease
+I, [2017-06-08T08:39:04.260476 #93588]  INFO -- default-ubuntu-1604: 0% [Connecting to us.archive.ubuntu.com (91.189.91.26)] [Connecting to security                                                                               Get:2 http://apt.puppetlabs.com trusty Release [68.9 kB]
+I, [2017-06-08T08:39:04.278013 #93588]  INFO -- default-ubuntu-1604: 0% [Connecting to us.archive.ubuntu.com (91.189.91.26)] [Connecting to security                                                                               0% [Connecting to us.archive.ubuntu.com (91.189.91.26)] [Waiting for headers]                                                                             Get:3 http://apt.puppetlabs.com trusty Release.gpg [836 B]
+I, [2017-06-08T08:39:04.339479 #93588]  INFO -- default-ubuntu-1604: 0% [Connecting to us.archive.ubuntu.com (91.189.91.26)] [Waiting for headers] [                                                                               0% [Connecting to us.archive.ubuntu.com (91.189.91.26)] [Waiting for headers]                                                                             0% [3 Release.gpg gpgv 68.9 kB] [Waiting for headers] [Waiting for headers]                                                                           0% [Waiting for headers] [Waiting for headers]                                              Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+I, [2017-06-08T08:39:04.342593 #93588]  INFO -- default-ubuntu-1604: 0% [Waiting for headers] [4 InRelease 10.9 kB/102 kB 11%] [Waiting for headers]                                                                               Get:5 http://apt.puppetlabs.com trusty/PC1 amd64 Packages [26.6 kB]
+I, [2017-06-08T08:39:04.349822 #93588]  INFO -- default-ubuntu-1604: 0% [Waiting for headers] [4 InRelease 12.6 kB/102 kB 12%] [5 Packages 1,368 B/2                                                                               0% [Waiting for headers] [4 InRelease 12.6 kB/102 kB 12%]                                                         Hit:6 http://us.archive.ubuntu.com/ubuntu xenial InRelease
+I, [2017-06-08T08:39:04.355908 #93588]  INFO -- default-ubuntu-1604: 0% [Waiting for headers] [4 InRelease 12.6 kB/102 kB 12%]0% [6 InRelease gpgv 247 kB] [Waiting for headers] [4 InRelease 12.6 kB/102 kB 0% [5 Packages store 0 B] [6 InRelease gpgv 247 kB] [Waiting for headers] [4 In                                                                               Get:7 http://apt.puppetlabs.com trusty/PC1 i386 Packages [25.7 kB]
+I, [2017-06-08T08:39:04.372847 #93588]  INFO -- default-ubuntu-1604: 0% [5 Packages store 0 B] [6 InRelease gpgv 247 kB] [Waiting for headers] [4 In0% [5 Packages store 0 B] [6 InRelease gpgv 247 kB] [Waiting for headers] [4 In0% [6 InRelease gpgv 247 kB] [Waiting for headers] [4 InRelease 12.6 kB/102 kB 0% [7 Packages store 0 B] [6 InRelease gpgv 247 kB] [Waiting for headers] [4 In0% [6 InRelease gpgv 247 kB] [Waiting for headers] [4 InRelease 12.6 kB/102 kB                                                                                Get:8 http://apt.puppetlabs.com trusty/PC1 all Packages [15.8 kB]
+I, [2017-06-08T08:39:04.420536 #93588]  INFO -- default-ubuntu-1604: 0% [6 InRelease gpgv 247 kB] [Waiting for headers] [4 InRelease 12.6 kB/102 kB 0% [6 InRelease gpgv 247 kB] [Waiting for headers] [4 InRelease 12.6 kB/102 kB 0% [8 Packages store 0 B] [6 InRelease gpgv 247 kB] [Waiting for headers] [4 In0% [6 InRelease gpgv 247 kB] [Waiting for headers] [4 InRelease 12.6 kB/102 kB                                                                                Get:9 http://us.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+I, [2017-06-08T08:39:04.686291 #93588]  INFO -- default-ubuntu-1604: 0% [6 InRelease gpgv 247 kB] [9 InRelease 12.6 kB/102 kB 12%] [4 InRelease 38.3                                                                               0% [9 InRelease 12.6 kB/102 kB 12%] [4 InRelease 38.3 kB/102 kB 38%]                                                                    0% [9 InRelease 35.8 kB/102 kB 35%]0% [4 InRelease gpgv 102 kB] [9 InRelease 35.8 kB/102 kB 35%]                                                             0% [9 InRelease 84.7 kB/102 kB 83%]0% [Waiting for headers] [Waiting for headers]0% [9 InRelease gpgv 102 kB] [Waiting for headers] [Waiting for headers]                                                                        Get:10 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [284 kB]
+I, [2017-06-08T08:39:04.702101 #93588]  INFO -- default-ubuntu-1604: 0% [9 InRelease gpgv 102 kB] [Waiting for headers] [10 Packages 75.8 kB/284 kB                                                                                Get:11 http://us.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+I, [2017-06-08T08:39:04.978293 #93588]  INFO -- default-ubuntu-1604: 0% [9 InRelease gpgv 102 kB] [11 InRelease 8,720 B/102 kB 9%] [10 Packages 75.8                                                                               0% [11 InRelease 97.6 kB/102 kB 95%] [10 Packages 75.8 kB/284 kB 27%]                                                                     0% [11 InRelease 97.6 kB/102 kB 95%]0% [10 Packages store 0 B] [11 InRelease 97.6 kB/102 kB 95%]                                                            0% [11 InRelease 97.6 kB/102 kB 95%] [Waiting for headers]                                                          Get:12 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages [270 kB]
+I, [2017-06-08T08:39:05.196072 #93588]  INFO -- default-ubuntu-1604: 0% [11 InRelease 97.6 kB/102 kB 95%] [12 Packages 2,367 B/270 kB 1%]                                                                    0% [11 InRelease 97.6 kB/102 kB 95%]0% [12 Packages store 0 B] [11 InRelease 97.6 kB/102 kB 95%]                                                            Get:13 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [121 kB]
+I, [2017-06-08T08:39:05.267322 #93588]  INFO -- default-ubuntu-1604: 0% [12 Packages store 0 B] [11 InRelease 97.6 kB/102 kB 95%] [13 Translation-en                                                                               0% [11 InRelease 97.6 kB/102 kB 95%] [13 Translation-en 42.8 kB/121 kB 35%]                                                                           0% [11 InRelease 97.6 kB/102 kB 95%]0% [13 Translation-en store 0 B] [11 InRelease 97.6 kB/102 kB 95%] [Waiting for                                                                               Get:14 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages [7,420 B]
+I, [2017-06-08T08:39:05.272409 #93588]  INFO -- default-ubuntu-1604: 0% [13 Translation-en store 0 B] [11 InRelease 97.6 kB/102 kB 95%] [14 Packages                                                                               0% [13 Translation-en store 0 B] [11 InRelease 97.6 kB/102 kB 95%]                                                                  Get:15 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages [7,420 B]
+I, [2017-06-08T08:39:05.274072 #93588]  INFO -- default-ubuntu-1604: 0% [13 Translation-en store 0 B] [11 InRelease 97.6 kB/102 kB 95%] [15 Packages                                                                               0% [13 Translation-en store 0 B] [11 InRelease 97.6 kB/102 kB 95%]                                                                  Get:16 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en [2,428 B]
+I, [2017-06-08T08:39:05.319940 #93588]  INFO -- default-ubuntu-1604: 0% [13 Translation-en store 0 B] [11 InRelease 97.6 kB/102 kB 95%] [16 Translat                                                                               Get:17 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [131 kB]
+I, [2017-06-08T08:39:05.406769 #93588]  INFO -- default-ubuntu-1604: 0% [13 Translation-en store 0 B] [11 InRelease 101 kB/102 kB 99%] [17 Packages                                                                                0% [13 Translation-en store 0 B] [17 Packages 94.4 kB/131 kB 72%]0% [13 Translation-en store 0 B] [11 InRelease gpgv 102 kB] [Waiting for header0% [11 InRelease gpgv 102 kB] [Waiting for headers] [17 Packages 94.4 kB/131 kB0% [14 Packages store 0 B] [11 InRelease gpgv 102 kB] [Waiting for headers] [170% [11 InRelease gpgv 102 kB] [Waiting for headers] [17 Packages 94.4 kB/131 kB0% [15 Packages store 0 B] [11 InRelease gpgv 102 kB] [Waiting for headers] [170% [11 InRelease gpgv 102 kB] [Waiting for headers] [17 Packages 99.5 kB/131 kB0% [16 Translation-en store 0 B] [11 InRelease gpgv 102 kB] [Waiting for header0% [11 InRelease gpgv 102 kB] [Waiting for headers] [17 Packages 111 kB/131 kB                                                                                0% [11 InRelease gpgv 102 kB] [Waiting for headers]0% [17 Packages store 0 B] [11 InRelease gpgv 102 kB] [Waiting for headers]                                                                           Get:18 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages [117 kB]
+I, [2017-06-08T08:39:05.436948 #93588]  INFO -- default-ubuntu-1604: 0% [17 Packages store 0 B] [11 InRelease gpgv 102 kB] [Waiting for headers] [18                                                                               Get:19 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [552 kB]
+I, [2017-06-08T08:39:05.474816 #93588]  INFO -- default-ubuntu-1604: 0% [17 Packages store 0 B] [11 InRelease gpgv 102 kB] [19 Packages 6,231 B/552 0% [11 InRelease gpgv 102 kB] [19 Packages 6,231 B/552 kB 1%] [18 Packages 59.9                                                                               Get:20 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [67.5 kB]
+I, [2017-06-08T08:39:05.545189 #93588]  INFO -- default-ubuntu-1604: 0% [11 InRelease gpgv 102 kB] [19 Packages 6,231 B/552 kB 1%] [20 Translation-e0% [18 Packages store 0 B] [11 InRelease gpgv 102 kB] [19 Packages 6,231 B/552 0% [11 InRelease gpgv 102 kB] [19 Packages 6,231 B/552 kB 1%] [20 Translation-e                                                                               45% [19 Packages 19.1 kB/552 kB 3%] [20 Translation-en 40.8 kB/67.5 kB 61%]                                                                           Get:21 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [2,752 B]
+I, [2017-06-08T08:39:05.546143 #93588]  INFO -- default-ubuntu-1604:                                                                            Get:22 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages [2,912 B]
+I, [2017-06-08T08:39:05.958434 #93588]  INFO -- default-ubuntu-1604:                                                                            45% [19 Packages 19.1 kB/552 kB 3%]45% [20 Translation-en store 0 B] [19 Packages 19.1 kB/552 kB 3%]                                                                 46% [19 Packages 19.1 kB/552 kB 3%]46% [21 Packages store 0 B] [19 Packages 19.1 kB/552 kB 3%]                                                           46% [19 Packages 19.1 kB/552 kB 3%]46% [22 Packages store 0 B] [19 Packages 19.1 kB/552 kB 3%]                                                           46% [19 Packages 19.1 kB/552 kB 3%]                                   57% [Working]57% [19 Packages store 0 B]                           Get:23 http://us.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [536 kB]
+I, [2017-06-08T08:39:06.181970 #93588]  INFO -- default-ubuntu-1604: 57% [19 Packages store 0 B] [23 Packages 0 B/536 kB 0%]                                                       64% [23 Packages 353 kB/536 kB 66%]                                   68% [Working]68% [23 Packages store 0 B]                           Get:24 http://us.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en [224 kB]
+I, [2017-06-08T08:39:06.257769 #93588]  INFO -- default-ubuntu-1604: 68% [23 Packages store 0 B] [24 Translation-en 0 B/224 kB 0%]                                                             72% [23 Packages store 0 B]                           Get:25 http://us.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages [7,772 B]
+I, [2017-06-08T08:39:06.263537 #93588]  INFO -- default-ubuntu-1604: 72% [23 Packages store 0 B] [25 Packages 0 B/7,772 B 0%]                                                        73% [23 Packages store 0 B]                           Get:26 http://us.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages [7,772 B]
+I, [2017-06-08T08:39:06.265991 #93588]  INFO -- default-ubuntu-1604: 73% [23 Packages store 0 B] [26 Packages 0 B/7,772 B 0%]                                                        73% [23 Packages store 0 B]                           Get:27 http://us.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en [2,548 B]
+I, [2017-06-08T08:39:06.267095 #93588]  INFO -- default-ubuntu-1604: 73% [23 Packages store 0 B] [27 Translation-en 0 B/2,548 B 0%]                                                              73% [23 Packages store 0 B]                           Get:28 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [477 kB]
+I, [2017-06-08T08:39:06.498300 #93588]  INFO -- default-ubuntu-1604: 73% [23 Packages store 0 B] [28 Packages 0 B/477 kB 0%]                                                       73% [28 Packages 7,271 B/477 kB 2%]73% [24 Translation-en store 0 B] [28 Packages 7,271 B/477 kB 2%]                                                                 76% [28 Packages 143 kB/477 kB 30%]76% [25 Packages store 0 B] [28 Packages 143 kB/477 kB 30%]                                                           76% [28 Packages 143 kB/477 kB 30%]76% [26 Packages store 0 B] [28 Packages 143 kB/477 kB 30%]                                                           77% [28 Packages 143 kB/477 kB 30%]77% [27 Translation-en store 0 B] [28 Packages 143 kB/477 kB 30%]                                                                 77% [28 Packages 143 kB/477 kB 30%]                                   84% [Working]84% [28 Packages store 0 B]                           Get:29 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages [461 kB]
+I, [2017-06-08T08:39:06.733056 #93588]  INFO -- default-ubuntu-1604: 84% [28 Packages store 0 B] [29 Packages 0 B/461 kB 0%]                                                       88% [29 Packages 218 kB/461 kB 47%]                                   93% [Working]93% [29 Packages store 0 B]                           Get:30 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [188 kB]
+I, [2017-06-08T08:39:06.857389 #93588]  INFO -- default-ubuntu-1604: 93% [29 Packages store 0 B] [30 Translation-en 0 B/188 kB 0%]                                                             96% [30 Translation-en 133 kB/188 kB 71%]                                         97% [Working]97% [30 Translation-en store 0 B] [Waiting for headers]                                                       Get:31 http://us.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [8,928 B]
+I, [2017-06-08T08:39:06.860136 #93588]  INFO -- default-ubuntu-1604: 97% [30 Translation-en store 0 B] [31 Packages 0 B/8,928 B 0%]                                                              97% [30 Translation-en store 0 B]                                 Get:32 http://us.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages [7,996 B]
+I, [2017-06-08T08:39:06.865914 #93588]  INFO -- default-ubuntu-1604: 97% [30 Translation-en store 0 B] [32 Packages 0 B/7,996 B 0%]                                                              Get:33 http://us.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en [4,460 B]
+I, [2017-06-08T08:39:06.865978 #93588]  INFO -- default-ubuntu-1604:                                                               Get:34 http://us.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [4,684 B]
+I, [2017-06-08T08:39:06.867928 #93588]  INFO -- default-ubuntu-1604: 98% [30 Translation-en store 0 B] [34 Packages 2,617 B/4,684 B 56%]                                                                   98% [30 Translation-en store 0 B]                                 Get:35 http://us.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages [4,676 B]
+I, [2017-06-08T08:39:06.869470 #93588]  INFO -- default-ubuntu-1604: 98% [30 Translation-en store 0 B] [35 Packages 0 B/4,676 B 0%]                                                              98% [30 Translation-en store 0 B]                                 Get:36 http://us.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [5,624 B]
+I, [2017-06-08T08:39:06.871218 #93588]  INFO -- default-ubuntu-1604: 98% [30 Translation-en store 0 B] [36 Packages 0 B/5,624 B 0%]                                                              98% [30 Translation-en store 0 B]                                 Get:37 http://us.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages [5,620 B]
+I, [2017-06-08T08:39:06.877564 #93588]  INFO -- default-ubuntu-1604: 98% [30 Translation-en store 0 B] [37 Packages 0 B/5,620 B 0%]                                                              Get:38 http://us.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en [2,872 B]
+I, [2017-06-08T08:39:06.932319 #93588]  INFO -- default-ubuntu-1604:                                                               98% [30 Translation-en store 0 B]                                 98% [Working]98% [31 Packages store 0 B]                           98% [Working]98% [32 Packages store 0 B]                           99% [Working]99% [33 Translation-en store 0 B]                                 99% [Working]99% [34 Packages store 0 B]                           99% [Working]99% [35 Packages store 0 B]                           99% [Working]99% [36 Packages store 0 B]                           100% [Working]100% [37 Packages store 0 B]                            100% [Working]100% [38 Translation-en store 0 B]                                  100% [Working]              Fetched 3,957 kB in 2s (1,439 kB/s)
+I, [2017-06-08T08:39:12.292433 #93588]  INFO -- default-ubuntu-1604: Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 4%Reading package lists... 4%Reading package lists... 9%Reading package lists... 9%Reading package lists... 11%Reading package lists... 11%Reading package lists... 11%Reading package lists... 11%Reading package lists... 11%Reading package lists... 11%Reading package lists... 11%Reading package lists... 11%Reading package lists... 37%Reading package lists... 39%Reading package lists... 39%Reading package lists... 66%Reading package lists... 66%Reading package lists... 81%Reading package lists... 81%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 85%Reading package lists... 85%Reading package lists... 86%Reading package lists... 87%Reading package lists... 87%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 93%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+I, [2017-06-08T08:39:12.428979 #93588]  INFO -- default-ubuntu-1604: Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+I, [2017-06-08T08:39:12.815537 #93588]  INFO -- default-ubuntu-1604: Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+I, [2017-06-08T08:39:12.817715 #93588]  INFO -- default-ubuntu-1604: Reading state information... 0%Reading state information... 0%Reading state information... Done
+I, [2017-06-08T08:39:13.129625 #93588]  INFO -- default-ubuntu-1604: The following additional packages will be installed:
+I, [2017-06-08T08:39:13.131403 #93588]  INFO -- default-ubuntu-1604:   fonts-lato javascript-common libjs-jquery libruby2.3 libyaml-0-2 rake ruby
+I, [2017-06-08T08:39:13.132123 #93588]  INFO -- default-ubuntu-1604:   ruby-did-you-mean ruby-json ruby-minitest ruby-net-telnet ruby-power-assert
+I, [2017-06-08T08:39:13.133124 #93588]  INFO -- default-ubuntu-1604:   ruby-test-unit ruby2.3 rubygems-integration unzip virt-what zip
+I, [2017-06-08T08:39:13.135997 #93588]  INFO -- default-ubuntu-1604: Suggested packages:
+I, [2017-06-08T08:39:13.136342 #93588]  INFO -- default-ubuntu-1604:   apache2 | lighttpd | httpd ri ruby-dev bundler
+I, [2017-06-08T08:39:13.138791 #93588]  INFO -- default-ubuntu-1604: The following NEW packages will be installed:
+I, [2017-06-08T08:39:13.141147 #93588]  INFO -- default-ubuntu-1604:   facter fonts-lato javascript-common libjs-jquery libruby2.3 libyaml-0-2 rake
+I, [2017-06-08T08:39:13.141496 #93588]  INFO -- default-ubuntu-1604:   ruby ruby-did-you-mean ruby-json ruby-minitest ruby-net-telnet
+I, [2017-06-08T08:39:13.142197 #93588]  INFO -- default-ubuntu-1604:   ruby-power-assert ruby-test-unit ruby2.3 rubygems-integration unzip
+I, [2017-06-08T08:39:13.142559 #93588]  INFO -- default-ubuntu-1604:   virt-what zip
+I, [2017-06-08T08:39:13.158152 #93588]  INFO -- default-ubuntu-1604: 0 upgraded, 19 newly installed, 0 to remove and 49 not upgraded.
+I, [2017-06-08T08:39:13.187814 #93588]  INFO -- default-ubuntu-1604: Need to get 6,538 kB of archives.
+I, [2017-06-08T08:39:13.189458 #93588]  INFO -- default-ubuntu-1604: After this operation, 29.4 MB of additional disk space will be used.
+I, [2017-06-08T08:39:13.357118 #93588]  INFO -- default-ubuntu-1604: 0% [Working]            Get:1 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 fonts-lato all 2.0-1 [2,693 kB]
+I, [2017-06-08T08:39:14.741101 #93588]  INFO -- default-ubuntu-1604: 0% [1 fonts-lato 0 B/2,693 kB 0%]8% [1 fonts-lato 682 kB/2,693 kB 25%]22% [1 fonts-lato 1,787 kB/2,693 kB 66%]                                        34% [Working]             Get:2 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libyaml-0-2 amd64 0.1.6-3 [47.6 kB]
+I, [2017-06-08T08:39:14.744416 #93588]  INFO -- default-ubuntu-1604: 34% [2 libyaml-0-2 0 B/47.6 kB 0%]                                  36% [Working]             Get:3 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 rubygems-integration all 1.10 [4,966 B]
+I, [2017-06-08T08:39:14.746767 #93588]  INFO -- default-ubuntu-1604: 36% [3 rubygems-integration 0 B/4,966 B 0%]                                           37% [Working]             Get:4 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 rake all 10.5.0-2 [48.2 kB]
+I, [2017-06-08T08:39:14.748900 #93588]  INFO -- default-ubuntu-1604: 37% [4 rake 0 B/48.2 kB 0%]                           38% [Working]             Get:5 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 ruby-did-you-mean all 1.0.0-2 [8,390 B]
+I, [2017-06-08T08:39:14.750572 #93588]  INFO -- default-ubuntu-1604: 38% [5 ruby-did-you-mean 0 B/8,390 B 0%]                                        40% [Working]             Get:6 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 ruby-minitest all 5.8.4-2 [36.6 kB]
+I, [2017-06-08T08:39:14.814970 #93588]  INFO -- default-ubuntu-1604: 40% [6 ruby-minitest 0 B/36.6 kB 0%]                                    41% [Working]             Get:7 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 ruby-net-telnet all 0.1.1-2 [12.6 kB]
+I, [2017-06-08T08:39:14.816723 #93588]  INFO -- default-ubuntu-1604: 41% [7 ruby-net-telnet 0 B/12.6 kB 0%]                                      42% [Working]             Get:8 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 ruby-power-assert all 0.2.7-1 [7,668 B]
+I, [2017-06-08T08:39:14.818455 #93588]  INFO -- default-ubuntu-1604: 42% [8 ruby-power-assert 0 B/7,668 B 0%]                                        43% [Working]             Get:9 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 ruby-test-unit all 3.1.7-2 [60.3 kB]
+I, [2017-06-08T08:39:14.886480 #93588]  INFO -- default-ubuntu-1604: 43% [9 ruby-test-unit 0 B/60.3 kB 0%]                                     45% [Working]             Get:10 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libruby2.3 amd64 2.3.1-2~16.04 [2,957 kB]
+I, [2017-06-08T08:39:15.926958 #93588]  INFO -- default-ubuntu-1604: 45% [10 libruby2.3 0 B/2,957 kB 0%]63% [10 libruby2.3 1,447 kB/2,957 kB 49%]79% [10 libruby2.3 2,802 kB/2,957 kB 95%]                                         82% [Working]             Get:11 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 ruby2.3 amd64 2.3.1-2~16.04 [40.9 kB]
+I, [2017-06-08T08:39:15.931129 #93588]  INFO -- default-ubuntu-1604: 82% [11 ruby2.3 0 B/40.9 kB 0%]                               84% [Working]             Get:12 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 ruby all 1:2.3.0+1 [5,530 B]
+I, [2017-06-08T08:39:15.966563 #93588]  INFO -- default-ubuntu-1604: 84% [12 ruby 0 B/5,530 B 0%]                            85% [Working]             Get:13 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 ruby-json amd64 1.8.3-1build4 [43.9 kB]
+I, [2017-06-08T08:39:15.980882 #93588]  INFO -- default-ubuntu-1604: 85% [13 ruby-json 0 B/43.9 kB 0%]                                 87% [Working]             Get:14 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 facter all 2.4.6-1 [75.1 kB]
+I, [2017-06-08T08:39:15.990960 #93588]  INFO -- default-ubuntu-1604: 87% [14 facter 0 B/75.1 kB 0%]                              89% [Working]             Get:15 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 javascript-common all 11 [6,066 B]
+I, [2017-06-08T08:39:15.993031 #93588]  INFO -- default-ubuntu-1604: 89% [15 javascript-common 0 B/6,066 B 0%]                                         90% [Working]             Get:16 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libjs-jquery all 1.11.3+dfsg-4 [161 kB]
+I, [2017-06-08T08:39:16.053545 #93588]  INFO -- default-ubuntu-1604: 90% [16 libjs-jquery 0 B/161 kB 0%]                                   93% [Working]             Get:17 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 unzip amd64 6.0-20ubuntu1 [158 kB]
+I, [2017-06-08T08:39:16.113751 #93588]  INFO -- default-ubuntu-1604: 93% [17 unzip 0 B/158 kB 0%]                            96% [Working]             Get:18 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 zip amd64 3.0-11 [158 kB]
+I, [2017-06-08T08:39:16.133034 #93588]  INFO -- default-ubuntu-1604: 96% [18 zip 0 B/158 kB 0%]                          99% [Working]             Get:19 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 virt-what amd64 1.14-1 [13.0 kB]
+I, [2017-06-08T08:39:16.171402 #93588]  INFO -- default-ubuntu-1604: 99% [19 virt-what 0 B/13.0 kB 0%]                                 100% [Working]              Fetched 6,538 kB in 2s (2,195 kB/s)
+I, [2017-06-08T08:39:16.385263 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package fonts-lato.
+I, [2017-06-08T08:39:16.408034 #93588]  INFO -- default-ubuntu-1604: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 37830 files and directories currently installed.)
+I, [2017-06-08T08:39:16.410749 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../fonts-lato_2.0-1_all.deb ...
+I, [2017-06-08T08:39:16.413723 #93588]  INFO -- default-ubuntu-1604: Unpacking fonts-lato (2.0-1) ...
+I, [2017-06-08T08:39:16.730225 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package libyaml-0-2:amd64.
+I, [2017-06-08T08:39:16.732797 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../libyaml-0-2_0.1.6-3_amd64.deb ...
+I, [2017-06-08T08:39:16.736116 #93588]  INFO -- default-ubuntu-1604: Unpacking libyaml-0-2:amd64 (0.1.6-3) ...
+I, [2017-06-08T08:39:16.759700 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package rubygems-integration.
+I, [2017-06-08T08:39:16.763402 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../rubygems-integration_1.10_all.deb ...
+I, [2017-06-08T08:39:16.766120 #93588]  INFO -- default-ubuntu-1604: Unpacking rubygems-integration (1.10) ...
+I, [2017-06-08T08:39:16.787596 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package rake.
+I, [2017-06-08T08:39:16.790369 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../archives/rake_10.5.0-2_all.deb ...
+I, [2017-06-08T08:39:16.793247 #93588]  INFO -- default-ubuntu-1604: Unpacking rake (10.5.0-2) ...
+I, [2017-06-08T08:39:16.845883 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-did-you-mean.
+I, [2017-06-08T08:39:16.850351 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-did-you-mean_1.0.0-2_all.deb ...
+I, [2017-06-08T08:39:16.853391 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-did-you-mean (1.0.0-2) ...
+I, [2017-06-08T08:39:16.882165 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-minitest.
+I, [2017-06-08T08:39:16.885087 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-minitest_5.8.4-2_all.deb ...
+I, [2017-06-08T08:39:16.888782 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-minitest (5.8.4-2) ...
+I, [2017-06-08T08:39:16.931277 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-net-telnet.
+I, [2017-06-08T08:39:16.934102 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-net-telnet_0.1.1-2_all.deb ...
+I, [2017-06-08T08:39:16.937640 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-net-telnet (0.1.1-2) ...
+I, [2017-06-08T08:39:16.963180 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-power-assert.
+I, [2017-06-08T08:39:16.966150 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-power-assert_0.2.7-1_all.deb ...
+I, [2017-06-08T08:39:16.970668 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-power-assert (0.2.7-1) ...
+I, [2017-06-08T08:39:16.994242 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-test-unit.
+I, [2017-06-08T08:39:16.997702 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-test-unit_3.1.7-2_all.deb ...
+I, [2017-06-08T08:39:17.002928 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-test-unit (3.1.7-2) ...
+I, [2017-06-08T08:39:17.054417 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package libruby2.3:amd64.
+I, [2017-06-08T08:39:17.057959 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../libruby2.3_2.3.1-2~16.04_amd64.deb ...
+I, [2017-06-08T08:39:17.064229 #93588]  INFO -- default-ubuntu-1604: Unpacking libruby2.3:amd64 (2.3.1-2~16.04) ...
+I, [2017-06-08T08:39:17.697493 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby2.3.
+I, [2017-06-08T08:39:17.700703 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby2.3_2.3.1-2~16.04_amd64.deb ...
+I, [2017-06-08T08:39:17.703385 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby2.3 (2.3.1-2~16.04) ...
+I, [2017-06-08T08:39:17.733919 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby.
+I, [2017-06-08T08:39:17.736118 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby_1%3a2.3.0+1_all.deb ...
+I, [2017-06-08T08:39:17.741216 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby (1:2.3.0+1) ...
+I, [2017-06-08T08:39:17.763153 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-json.
+I, [2017-06-08T08:39:17.765939 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-json_1.8.3-1build4_amd64.deb ...
+I, [2017-06-08T08:39:17.768136 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-json (1.8.3-1build4) ...
+I, [2017-06-08T08:39:17.805306 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package facter.
+I, [2017-06-08T08:39:17.806668 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../facter_2.4.6-1_all.deb ...
+I, [2017-06-08T08:39:17.811518 #93588]  INFO -- default-ubuntu-1604: Unpacking facter (2.4.6-1) ...
+I, [2017-06-08T08:39:17.886126 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package javascript-common.
+I, [2017-06-08T08:39:17.888916 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../javascript-common_11_all.deb ...
+I, [2017-06-08T08:39:17.897064 #93588]  INFO -- default-ubuntu-1604: Unpacking javascript-common (11) ...
+I, [2017-06-08T08:39:17.918361 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package libjs-jquery.
+I, [2017-06-08T08:39:17.922127 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../libjs-jquery_1.11.3+dfsg-4_all.deb ...
+I, [2017-06-08T08:39:17.924605 #93588]  INFO -- default-ubuntu-1604: Unpacking libjs-jquery (1.11.3+dfsg-4) ...
+I, [2017-06-08T08:39:17.960555 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package unzip.
+I, [2017-06-08T08:39:17.963924 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../unzip_6.0-20ubuntu1_amd64.deb ...
+I, [2017-06-08T08:39:17.967431 #93588]  INFO -- default-ubuntu-1604: Unpacking unzip (6.0-20ubuntu1) ...
+I, [2017-06-08T08:39:18.007184 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package zip.
+I, [2017-06-08T08:39:18.010026 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../archives/zip_3.0-11_amd64.deb ...
+I, [2017-06-08T08:39:18.013413 #93588]  INFO -- default-ubuntu-1604: Unpacking zip (3.0-11) ...
+I, [2017-06-08T08:39:18.050007 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package virt-what.
+I, [2017-06-08T08:39:18.053124 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../virt-what_1.14-1_amd64.deb ...
+I, [2017-06-08T08:39:18.055294 #93588]  INFO -- default-ubuntu-1604: Unpacking virt-what (1.14-1) ...
+I, [2017-06-08T08:39:18.071495 #93588]  INFO -- default-ubuntu-1604: Processing triggers for man-db (2.7.5-1) ...
+I, [2017-06-08T08:39:22.433326 #93588]  INFO -- default-ubuntu-1604: Processing triggers for libc-bin (2.23-0ubuntu7) ...
+I, [2017-06-08T08:39:22.446455 #93588]  INFO -- default-ubuntu-1604: Processing triggers for mime-support (3.59ubuntu1) ...
+I, [2017-06-08T08:39:22.482145 #93588]  INFO -- default-ubuntu-1604: Setting up fonts-lato (2.0-1) ...
+I, [2017-06-08T08:39:22.489437 #93588]  INFO -- default-ubuntu-1604: Setting up libyaml-0-2:amd64 (0.1.6-3) ...
+I, [2017-06-08T08:39:22.505345 #93588]  INFO -- default-ubuntu-1604: Setting up rubygems-integration (1.10) ...
+I, [2017-06-08T08:39:22.511842 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-did-you-mean (1.0.0-2) ...
+I, [2017-06-08T08:39:22.517166 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-minitest (5.8.4-2) ...
+I, [2017-06-08T08:39:22.524096 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-net-telnet (0.1.1-2) ...
+I, [2017-06-08T08:39:22.529016 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-power-assert (0.2.7-1) ...
+I, [2017-06-08T08:39:22.534281 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-test-unit (3.1.7-2) ...
+I, [2017-06-08T08:39:22.541935 #93588]  INFO -- default-ubuntu-1604: Setting up javascript-common (11) ...
+I, [2017-06-08T08:39:22.561796 #93588]  INFO -- default-ubuntu-1604: Setting up libjs-jquery (1.11.3+dfsg-4) ...
+I, [2017-06-08T08:39:22.567755 #93588]  INFO -- default-ubuntu-1604: Setting up unzip (6.0-20ubuntu1) ...
+I, [2017-06-08T08:39:22.581189 #93588]  INFO -- default-ubuntu-1604: Setting up zip (3.0-11) ...
+I, [2017-06-08T08:39:22.590180 #93588]  INFO -- default-ubuntu-1604: Setting up virt-what (1.14-1) ...
+I, [2017-06-08T08:39:22.597444 #93588]  INFO -- default-ubuntu-1604: Setting up rake (10.5.0-2) ...
+I, [2017-06-08T08:39:22.605682 #93588]  INFO -- default-ubuntu-1604: Setting up libruby2.3:amd64 (2.3.1-2~16.04) ...
+I, [2017-06-08T08:39:22.612818 #93588]  INFO -- default-ubuntu-1604: Setting up ruby2.3 (2.3.1-2~16.04) ...
+I, [2017-06-08T08:39:22.619535 #93588]  INFO -- default-ubuntu-1604: Setting up ruby (1:2.3.0+1) ...
+I, [2017-06-08T08:39:22.631563 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-json (1.8.3-1build4) ...
+I, [2017-06-08T08:39:22.638504 #93588]  INFO -- default-ubuntu-1604: Setting up facter (2.4.6-1) ...
+I, [2017-06-08T08:39:22.645088 #93588]  INFO -- default-ubuntu-1604: Processing triggers for libc-bin (2.23-0ubuntu7) ...
+I, [2017-06-08T08:39:24.302104 #93588]  INFO -- default-ubuntu-1604: Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+I, [2017-06-08T08:39:24.628076 #93588]  INFO -- default-ubuntu-1604: Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+I, [2017-06-08T08:39:24.628717 #93588]  INFO -- default-ubuntu-1604: Reading state information... 0%Reading state information... 0%Reading state information... Done
+I, [2017-06-08T08:39:24.960071 #93588]  INFO -- default-ubuntu-1604: The following additional packages will be installed:
+I, [2017-06-08T08:39:24.961976 #93588]  INFO -- default-ubuntu-1604:   augeas-lenses debconf-utils hiera libaugeas0 libxslt1.1 ruby-augeas
+I, [2017-06-08T08:39:24.962316 #93588]  INFO -- default-ubuntu-1604:   ruby-deep-merge ruby-nokogiri ruby-rgen ruby-safe-yaml ruby-selinux
+I, [2017-06-08T08:39:24.963095 #93588]  INFO -- default-ubuntu-1604:   ruby-shadow
+I, [2017-06-08T08:39:24.965562 #93588]  INFO -- default-ubuntu-1604: Suggested packages:
+I, [2017-06-08T08:39:24.966001 #93588]  INFO -- default-ubuntu-1604:   augeas-doc mcollective-common augeas-tools ruby-rrd
+I, [2017-06-08T08:39:24.967902 #93588]  INFO -- default-ubuntu-1604: The following NEW packages will be installed:
+I, [2017-06-08T08:39:24.969865 #93588]  INFO -- default-ubuntu-1604:   augeas-lenses debconf-utils hiera libaugeas0 libxslt1.1 puppet-common
+I, [2017-06-08T08:39:24.970165 #93588]  INFO -- default-ubuntu-1604:   ruby-augeas ruby-deep-merge ruby-nokogiri ruby-rgen ruby-safe-yaml
+I, [2017-06-08T08:39:24.970867 #93588]  INFO -- default-ubuntu-1604:   ruby-selinux ruby-shadow
+I, [2017-06-08T08:39:24.982479 #93588]  INFO -- default-ubuntu-1604: 0 upgraded, 13 newly installed, 0 to remove and 49 not upgraded.
+I, [2017-06-08T08:39:25.003852 #93588]  INFO -- default-ubuntu-1604: Need to get 1,906 kB of archives.
+I, [2017-06-08T08:39:25.004124 #93588]  INFO -- default-ubuntu-1604: After this operation, 9,407 kB of additional disk space will be used.
+I, [2017-06-08T08:39:25.197714 #93588]  INFO -- default-ubuntu-1604: 0% [Working]            Get:1 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 augeas-lenses all 1.4.0-0ubuntu1 [263 kB]
+I, [2017-06-08T08:39:25.559405 #93588]  INFO -- default-ubuntu-1604: 0% [1 augeas-lenses 0 B/263 kB 0%]                                  13% [Working]             Get:2 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 debconf-utils all 1.5.58ubuntu1 [57.5 kB]
+I, [2017-06-08T08:39:25.564583 #93588]  INFO -- default-ubuntu-1604: 13% [2 debconf-utils 0 B/57.5 kB 0%]                                    17% [Working]             Get:3 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 ruby-deep-merge all 1.0.1+gitf9df6fdb-1 [8,226 B]
+I, [2017-06-08T08:39:25.567755 #93588]  INFO -- default-ubuntu-1604: 17% [3 ruby-deep-merge 0 B/8,226 B 0%]                                      18% [Working]             Get:4 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 hiera all 2.0.0-2 [21.6 kB]
+I, [2017-06-08T08:39:25.569396 #93588]  INFO -- default-ubuntu-1604: 18% [4 hiera 0 B/21.6 kB 0%]                            21% [Working]             Get:5 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libaugeas0 amd64 1.4.0-0ubuntu1 [154 kB]
+I, [2017-06-08T08:39:25.702203 #93588]  INFO -- default-ubuntu-1604: 21% [5 libaugeas0 0 B/154 kB 0%]                                29% [Working]             Get:6 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxslt1.1 amd64 1.1.28-2.1ubuntu0.1 [145 kB]
+I, [2017-06-08T08:39:25.776703 #93588]  INFO -- default-ubuntu-1604: 29% [6 libxslt1.1 0 B/145 kB 0%]                                37% [Working]             Get:7 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 ruby-augeas amd64 1:0.5.0-3build4 [10.6 kB]
+I, [2017-06-08T08:39:25.788712 #93588]  INFO -- default-ubuntu-1604: 37% [7 ruby-augeas 0 B/10.6 kB 0%]                                  38% [Working]             Get:8 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 ruby-nokogiri amd64 1.6.7.2-3build1 [88.3 kB]
+I, [2017-06-08T08:39:25.793818 #93588]  INFO -- default-ubuntu-1604: 38% [8 ruby-nokogiri 0 B/88.3 kB 0%]                                    44% [Working]             Get:9 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 ruby-rgen all 0.7.0-2 [70.0 kB]
+I, [2017-06-08T08:39:25.859585 #93588]  INFO -- default-ubuntu-1604: 44% [9 ruby-rgen 0 B/70.0 kB 0%]                                48% [Working]             Get:10 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 ruby-safe-yaml all 1.0.4-1 [17.5 kB]
+I, [2017-06-08T08:39:25.862698 #93588]  INFO -- default-ubuntu-1604: 48% [10 ruby-safe-yaml 0 B/17.5 kB 0%]                                      50% [Working]             Get:11 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 ruby-shadow amd64 2.4.1-1build4 [9,490 B]
+I, [2017-06-08T08:39:25.864541 #93588]  INFO -- default-ubuntu-1604: 50% [11 ruby-shadow 0 B/9,490 B 0%]                                   52% [Working]             Get:12 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 puppet-common all 3.8.5-2ubuntu0.1 [1,014 kB]
+I, [2017-06-08T08:39:26.351410 #93588]  INFO -- default-ubuntu-1604: 52% [12 puppet-common 0 B/1,014 kB 0%]                                      Get:13 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 ruby-selinux amd64 2.4-3build2 [46.2 kB]
+I, [2017-06-08T08:39:26.352024 #93588]  INFO -- default-ubuntu-1604:                                       100% [Working]              Fetched 1,906 kB in 1s (1,418 kB/s)
+I, [2017-06-08T08:39:26.616518 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package augeas-lenses.
+I, [2017-06-08T08:39:26.637862 #93588]  INFO -- default-ubuntu-1604: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 39335 files and directories currently installed.)
+I, [2017-06-08T08:39:26.641512 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../augeas-lenses_1.4.0-0ubuntu1_all.deb ...
+I, [2017-06-08T08:39:26.645135 #93588]  INFO -- default-ubuntu-1604: Unpacking augeas-lenses (1.4.0-0ubuntu1) ...
+I, [2017-06-08T08:39:26.839358 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package debconf-utils.
+I, [2017-06-08T08:39:26.844453 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../debconf-utils_1.5.58ubuntu1_all.deb ...
+I, [2017-06-08T08:39:26.848113 #93588]  INFO -- default-ubuntu-1604: Unpacking debconf-utils (1.5.58ubuntu1) ...
+I, [2017-06-08T08:39:26.903094 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-deep-merge.
+I, [2017-06-08T08:39:26.908253 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-deep-merge_1.0.1+gitf9df6fdb-1_all.deb ...
+I, [2017-06-08T08:39:26.914464 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-deep-merge (1.0.1+gitf9df6fdb-1) ...
+I, [2017-06-08T08:39:26.942452 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package hiera.
+I, [2017-06-08T08:39:26.945309 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../archives/hiera_2.0.0-2_all.deb ...
+I, [2017-06-08T08:39:26.948065 #93588]  INFO -- default-ubuntu-1604: Unpacking hiera (2.0.0-2) ...
+I, [2017-06-08T08:39:26.978426 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package libaugeas0.
+I, [2017-06-08T08:39:26.981374 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../libaugeas0_1.4.0-0ubuntu1_amd64.deb ...
+I, [2017-06-08T08:39:26.986642 #93588]  INFO -- default-ubuntu-1604: Unpacking libaugeas0 (1.4.0-0ubuntu1) ...
+I, [2017-06-08T08:39:27.026322 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package libxslt1.1:amd64.
+I, [2017-06-08T08:39:27.028953 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../libxslt1.1_1.1.28-2.1ubuntu0.1_amd64.deb ...
+I, [2017-06-08T08:39:27.032006 #93588]  INFO -- default-ubuntu-1604: Unpacking libxslt1.1:amd64 (1.1.28-2.1ubuntu0.1) ...
+I, [2017-06-08T08:39:27.070490 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-augeas.
+I, [2017-06-08T08:39:27.073557 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-augeas_1%3a0.5.0-3build4_amd64.deb ...
+I, [2017-06-08T08:39:27.076243 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-augeas (1:0.5.0-3build4) ...
+I, [2017-06-08T08:39:27.100327 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-nokogiri.
+I, [2017-06-08T08:39:27.105974 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-nokogiri_1.6.7.2-3build1_amd64.deb ...
+I, [2017-06-08T08:39:27.109182 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-nokogiri (1.6.7.2-3build1) ...
+I, [2017-06-08T08:39:27.169719 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-rgen.
+I, [2017-06-08T08:39:27.172726 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-rgen_0.7.0-2_all.deb ...
+I, [2017-06-08T08:39:27.175936 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-rgen (0.7.0-2) ...
+I, [2017-06-08T08:39:27.229511 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-safe-yaml.
+I, [2017-06-08T08:39:27.232673 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-safe-yaml_1.0.4-1_all.deb ...
+I, [2017-06-08T08:39:27.235588 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-safe-yaml (1.0.4-1) ...
+I, [2017-06-08T08:39:27.264042 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-shadow.
+I, [2017-06-08T08:39:27.266526 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-shadow_2.4.1-1build4_amd64.deb ...
+I, [2017-06-08T08:39:27.269400 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-shadow (2.4.1-1build4) ...
+I, [2017-06-08T08:39:27.294399 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package puppet-common.
+I, [2017-06-08T08:39:27.299459 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../puppet-common_3.8.5-2ubuntu0.1_all.deb ...
+I, [2017-06-08T08:39:27.307024 #93588]  INFO -- default-ubuntu-1604: Unpacking puppet-common (3.8.5-2ubuntu0.1) ...
+I, [2017-06-08T08:39:27.810548 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package ruby-selinux.
+I, [2017-06-08T08:39:27.813939 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../ruby-selinux_2.4-3build2_amd64.deb ...
+I, [2017-06-08T08:39:27.816049 #93588]  INFO -- default-ubuntu-1604: Unpacking ruby-selinux (2.4-3build2) ...
+I, [2017-06-08T08:39:27.838500 #93588]  INFO -- default-ubuntu-1604: Processing triggers for man-db (2.7.5-1) ...
+I, [2017-06-08T08:39:28.264090 #93588]  INFO -- default-ubuntu-1604: Processing triggers for libc-bin (2.23-0ubuntu7) ...
+I, [2017-06-08T08:39:28.302465 #93588]  INFO -- default-ubuntu-1604: Setting up augeas-lenses (1.4.0-0ubuntu1) ...
+I, [2017-06-08T08:39:28.314258 #93588]  INFO -- default-ubuntu-1604: Setting up debconf-utils (1.5.58ubuntu1) ...
+I, [2017-06-08T08:39:28.325731 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-deep-merge (1.0.1+gitf9df6fdb-1) ...
+I, [2017-06-08T08:39:28.333223 #93588]  INFO -- default-ubuntu-1604: Setting up hiera (2.0.0-2) ...
+I, [2017-06-08T08:39:28.342454 #93588]  INFO -- default-ubuntu-1604: Setting up libaugeas0 (1.4.0-0ubuntu1) ...
+I, [2017-06-08T08:39:28.355983 #93588]  INFO -- default-ubuntu-1604: Setting up libxslt1.1:amd64 (1.1.28-2.1ubuntu0.1) ...
+I, [2017-06-08T08:39:28.367386 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-augeas (1:0.5.0-3build4) ...
+I, [2017-06-08T08:39:28.382938 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-nokogiri (1.6.7.2-3build1) ...
+I, [2017-06-08T08:39:28.398398 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-rgen (0.7.0-2) ...
+I, [2017-06-08T08:39:28.408246 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-safe-yaml (1.0.4-1) ...
+I, [2017-06-08T08:39:28.421444 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-shadow (2.4.1-1build4) ...
+I, [2017-06-08T08:39:28.430535 #93588]  INFO -- default-ubuntu-1604: Setting up puppet-common (3.8.5-2ubuntu0.1) ...
+I, [2017-06-08T08:39:28.534479 #93588]  INFO -- default-ubuntu-1604: Setting up ruby-selinux (2.4-3build2) ...
+I, [2017-06-08T08:39:28.539508 #93588]  INFO -- default-ubuntu-1604: Processing triggers for libc-bin (2.23-0ubuntu7) ...
+I, [2017-06-08T08:39:30.353211 #93588]  INFO -- default-ubuntu-1604: Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+I, [2017-06-08T08:39:30.800914 #93588]  INFO -- default-ubuntu-1604: Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+I, [2017-06-08T08:39:30.802882 #93588]  INFO -- default-ubuntu-1604: Reading state information... 0%Reading state information... 0%Reading state information... Done
+I, [2017-06-08T08:39:31.059940 #93588]  INFO -- default-ubuntu-1604: Suggested packages:
+I, [2017-06-08T08:39:31.060592 #93588]  INFO -- default-ubuntu-1604:   puppet-el vim-puppet etckeeper
+I, [2017-06-08T08:39:31.063629 #93588]  INFO -- default-ubuntu-1604: The following NEW packages will be installed:
+I, [2017-06-08T08:39:31.064638 #93588]  INFO -- default-ubuntu-1604:   puppet
+I, [2017-06-08T08:39:31.078589 #93588]  INFO -- default-ubuntu-1604: 0 upgraded, 1 newly installed, 0 to remove and 49 not upgraded.
+I, [2017-06-08T08:39:31.097440 #93588]  INFO -- default-ubuntu-1604: Need to get 12.3 kB of archives.
+I, [2017-06-08T08:39:31.097512 #93588]  INFO -- default-ubuntu-1604: After this operation, 60.4 kB of additional disk space will be used.
+I, [2017-06-08T08:39:31.259439 #93588]  INFO -- default-ubuntu-1604: 0% [Working]            Get:1 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 puppet all 3.8.5-2ubuntu0.1 [12.3 kB]
+I, [2017-06-08T08:39:31.262191 #93588]  INFO -- default-ubuntu-1604: 0% [1 puppet 0 B/12.3 kB 0%]                            100% [Working]              Fetched 12.3 kB in 0s (76.9 kB/s)
+I, [2017-06-08T08:39:31.466493 #93588]  INFO -- default-ubuntu-1604: Selecting previously unselected package puppet.
+I, [2017-06-08T08:39:31.503905 #93588]  INFO -- default-ubuntu-1604: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 41357 files and directories currently installed.)
+I, [2017-06-08T08:39:31.508294 #93588]  INFO -- default-ubuntu-1604: Preparing to unpack .../puppet_3.8.5-2ubuntu0.1_all.deb ...
+I, [2017-06-08T08:39:31.525415 #93588]  INFO -- default-ubuntu-1604: Unpacking puppet (3.8.5-2ubuntu0.1) ...
+I, [2017-06-08T08:39:31.558168 #93588]  INFO -- default-ubuntu-1604: Processing triggers for systemd (229-4ubuntu16) ...
+I, [2017-06-08T08:39:31.670564 #93588]  INFO -- default-ubuntu-1604: Processing triggers for ureadahead (0.100.0-19) ...
+I, [2017-06-08T08:39:31.840978 #93588]  INFO -- default-ubuntu-1604: Setting up puppet (3.8.5-2ubuntu0.1) ...
+I, [2017-06-08T08:39:33.733927 #93588]  INFO -- default-ubuntu-1604: Processing triggers for systemd (229-4ubuntu16) ...
+I, [2017-06-08T08:39:33.886085 #93588]  INFO -- default-ubuntu-1604: Processing triggers for ureadahead (0.100.0-19) ...
+I, [2017-06-08T08:39:36.454147 #93588]  INFO -- default-ubuntu-1604: Transferring files to <default-ubuntu-1604>
+I, [2017-06-08T08:39:36.472901 #93588]  INFO -- default-ubuntu-1604: Going to invoke puppet apply with:           
+          
+            export MANIFESTDIR='/tmp/kitchen/manifests'; sudo -E puppet apply /tmp/kitchen/manifests/site.pp --modulepath=/tmp/kitchen/modules --fileserverconfig=/tmp/kitchen/fileserver.conf            
+
+I, [2017-06-08T08:39:39.836825 #93588]  INFO -- default-ubuntu-1604: [mNotice: Compiled catalog for default-ubuntu-1604.vagrantup.com in environment production in 0.64 seconds[0m
+I, [2017-06-08T08:39:46.771248 #93588]  INFO -- default-ubuntu-1604: [mNotice: /Stage[main]/Main/Package[redis-server]/ensure: ensure changed 'purged' to 'latest'[0m
+I, [2017-06-08T08:39:46.792740 #93588]  INFO -- default-ubuntu-1604: [mNotice: /Stage[main]/Main/Service[redis]/ensure: ensure changed 'stopped' to 'running'[0m
+I, [2017-06-08T08:39:46.804801 #93588]  INFO -- default-ubuntu-1604: [mNotice: Finished catalog run in 6.42 seconds[0m
+I, [2017-06-08T08:39:46.897481 #93588]  INFO -- default-ubuntu-1604: Finished converging <default-ubuntu-1604> (0m43.75s).
+I, [2017-06-08T08:39:46.897594 #93588]  INFO -- default-ubuntu-1604: -----> Setting up <default-ubuntu-1604>...
+I, [2017-06-08T08:39:46.905972 #93588]  INFO -- default-ubuntu-1604: Finished setting up <default-ubuntu-1604> (0m0.00s).
+I, [2017-06-08T08:39:46.906103 #93588]  INFO -- default-ubuntu-1604: -----> Verifying <default-ubuntu-1604>...
+I, [2017-06-08T08:39:47.084316 #93588]  INFO -- default-ubuntu-1604: Loaded redis_test 
+I, [2017-06-08T08:39:47.208775 #93588]  INFO -- default-ubuntu-1604: Finished verifying <default-ubuntu-1604> (0m0.30s).
+I, [2017-06-08T08:39:47.209429 #93588]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
+I, [2017-06-08T08:39:50.808358 #93588]  INFO -- default-ubuntu-1604: ==> default: Forcing shutdown of VM...
+I, [2017-06-08T08:39:52.561645 #93588]  INFO -- default-ubuntu-1604: ==> default: Destroying VM and associated drives...
+I, [2017-06-08T08:39:52.953997 #93588]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> destroyed.
+I, [2017-06-08T08:39:52.955034 #93588]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m5.74s).
+I, [2017-06-08T08:39:52.955293 #93588]  INFO -- default-ubuntu-1604: Finished testing <default-ubuntu-1604> (1m26.96s).

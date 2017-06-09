@@ -1,0 +1,11 @@
+---
+- hosts: redisserver
+  tasks:
+  - name: ensure redis is installed
+    package: 
+      name: redis-server
+      state: latest
+  - name: enssure redis service is running
+    service:
+      name: redis
+      state: started
