@@ -1,9 +1,9 @@
 # Wizeline GDL DevOps meetup demo
 
 ## Prerequesites
- - Install ChefDK ()
- - Install Vagrant
- - Install Virtualbox
+ - Install ChefDK (https://downloas.chef.io/chefdk)
+ - Install Vagrant (https://www.vagrantup.com/downloads.html)
+ - Install Virtualbox (https://www.virtualbox.org/wiki/Downloads)
 
 ## Install extra gems for demo
     chef gem install kitchen-ansible
